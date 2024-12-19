@@ -1,5 +1,4 @@
 # Prompt the user to enter their monthly income
-5
 monthly_income = float(input("Enter your monthly income: "))
 
 # Ask the user to enter their total monthly expenses
