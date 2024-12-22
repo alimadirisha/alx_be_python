@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Prompt user for for current weather
 weather = input("What's the weather like today? (sunny/rainy/cold):")
 
