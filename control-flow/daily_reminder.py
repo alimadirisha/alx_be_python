@@ -1,10 +1,14 @@
-task = input("Enter your task description: ")  # Prompt for task description
-priority = input("Enter your task’s priority (high, medium, low): ")  # prompt for task priority
-time_bound = input("is it time-bound? (yes or no): ")  # Prompt for time sensitivity
+ # Prompt for task description
+task = input("Enter your task description: ") 
 
+# prompt for task priority
+priority = input("Enter your task’s priority (high, medium, low): ")  
+
+ # Prompt for time sensitivity
+time_bound = input("is it time-bound? (yes or no): ") 
 # Process the task based on priority using match case
 match priority:
-    case "high":
+    case "high": 
         reminder = f"The task {task} has high priority."
     case "medium":
         reminder = f"The task {task} has medium priority."
