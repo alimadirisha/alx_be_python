@@ -11,4 +11,3 @@ Multiplication = number1 * number2
 print("Addition of", number1, "and", number2, "is", Addition)
 print("subtraction of", number1, "and", number2, "is", Substraction)
 print("Multiplication of", number1, "and", number2, "is", Multiplication)
-
