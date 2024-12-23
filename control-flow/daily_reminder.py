@@ -3,7 +3,7 @@ while True:
     task = input("Enter your task: ")
     if not task:
         print("Task description cannot be empty!")
-    break
+    break  # Exit the loop if a task is entered
 
 # Prompt for task priority
 while True:
