@@ -1,11 +1,21 @@
  # Prompt for task description
-task = input("Enter your task: ") 
+task = input("Enter your task: ").strip()
+if not task:
+    print("Task description cannot be empty!")
+    exit()
 
 # prompt for task priority
-priority = input("Enter your task’s priority (high/medium/low): ").lower() 
+priority = input("Enter your task's priority (high/medium/low): ").strip().lower()
+if priority not in ["high", "medium", "low"]:
+    print("Invalid priority! Please enter 'high', 'medium', or 'low'.")
+    exit()
 
  # Prompt for time sensitivity
-time_bound = input("is it time-bound? (yes/no): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
+if time_bound not in ["yes", "no"]:
+    print("Invalid response! Please enter 'yes' or 'no'.")
+    exit()
+
 # Process the task based on priority using match case
 match priority:
     case "high": 
