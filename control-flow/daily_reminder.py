@@ -1,8 +1,9 @@
  # Prompt for task description
-task = input("Enter your task: ")
-if not task:
-    print("Task description cannot be empty!")
-    
+while True:
+    task = input("Enter your task: ")
+    if not task:
+        print("Task description cannot be empty!")
+    break
 
 # Prompt for task priority
 while True:
@@ -13,7 +14,7 @@ while True:
     
  # Prompt for time sensitivity
 while True:
-    time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
+    time_bound = input("Is it time-bound? (yes/no): ")
     if time_bound in ["yes", "no"]:
         break  # Exit the loop if the input is valid
     print("Invalid response! Please enter 'yes' or 'no'.")
