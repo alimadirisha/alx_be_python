@@ -1,26 +1,26 @@
  # Prompt for task description
 while True:
     Task = input("Enter your task: ")
-    if task:
+    if Task:
         break
     print("Task description cannot be empty!")
 
 # Prompt for task priority
 while True:
     Priority = input("Enter your task's priority (high/medium/low): ")
-    if priority in ["high", "medium", "low"]:
+    if Priority in ["high", "medium", "low"]:
         break  # Exit the loop if the input is valid
     print("Invalid priority! Please enter 'high', 'medium', or 'low'.")
     
  # Prompt for time sensitivity
 while True:
     Time_bound = input("Is it time-bound? (yes/no): ")
-    if time_bound in ["yes", "no"]:
+    if Time_bound in ["yes", "no"]:
         break  # Exit the loop if the input is valid
     print("Invalid response! Please enter 'yes' or 'no'.")
 
 # Process the task based on priority using match case
-match priority:
+match Priority:
     case "high": 
         reminder = f"The task {Task} has high priority."
     case "medium":
@@ -31,7 +31,7 @@ match priority:
         reminder = f"The task {Task} has an unspecified priority level."
 
 # Modify the reminder based on time sensitivity
-if time_bound == "yes":
+if Time_bound == "yes":
     reminder += " It requires immediate attention today!"
     
 else:
