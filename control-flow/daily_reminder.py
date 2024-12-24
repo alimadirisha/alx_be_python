@@ -20,10 +20,10 @@ match Priority:
 
 # Modify the reminder based on time sensitivity
 if Time_bound == "yes":
-    reminder += " It requires immediate attention today!"
+    reminder += " Reminder: '{Task}' is a high priority task that requires immediate attention today!"
     
 else:
-    reminder += " It can be scheduled to a later time today!"
+    reminder += "Note: '{Task}' is a low priority task. Consider completing it when you have free time."
 
 # Provide a customized reminder
 print(reminder)
