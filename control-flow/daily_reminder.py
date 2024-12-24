@@ -2,7 +2,7 @@
 Task = input("Enter your task: ")
 
 # Prompt for task priority
-Priority = input("(high/medium/low): ")
+Priority = input("priority(high/medium/low): ")
 
  # Prompt for time sensitivity
 Time_bound = input("Is it time-bound? (yes/no): ")
