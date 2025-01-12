@@ -4,8 +4,8 @@ def display_menu():
     
     #Display the menu options to the user.
     
-    print("\nShopping List Manager")
-    print("---------------------")
+    print("Shopping List Manager")
+    print("********************")
     print("1. Add an item")
     print("2. Remove an item")
     print("3. View the shopping list")
@@ -29,7 +29,7 @@ def remove_item(shopping_list):
     else:
         print(f'"{item}" was not found in your shopping list.')
 
-# Display the items in the shopping list.
+# Display of items in the shopping list.
 def view_list(shopping_list):
     
     if not shopping_list:
