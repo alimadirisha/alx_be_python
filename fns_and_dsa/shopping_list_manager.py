@@ -6,9 +6,9 @@ def display_menu():
     
     print("Shopping List Manager")
     print("********************")
-    print("1. Add an item")
-    print("2. Remove an item")
-    print("3. View the shopping list")
+    print("1. Add item")
+    print("2. Remove item")
+    print("3. View List")
     print("4. Exit")
     
 #Add an item to the shopping list.
