@@ -21,7 +21,7 @@ class BankAccount:
             print(f"Withdrawal successful! Your updated account balance is Ksh{self.account_balance:.2f}")
                 
     def display_balance(self):
-        print(f"Current account balance: Ksh {self.account_balance}:2f")   
+        print(f"[Current balance: Ksh {self.account_balance}:2f]")   
     
 account1 = BankAccount()
 
