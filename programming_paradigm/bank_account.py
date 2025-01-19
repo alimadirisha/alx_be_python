@@ -26,7 +26,7 @@ class BankAccount:
 account1 = BankAccount()
 
 # Deposit money
-#account1.deposit_amount(100)    
+account1.deposit_amount(100)    
 
 #Withdraw money
 account1.withdraw_amount(50)
