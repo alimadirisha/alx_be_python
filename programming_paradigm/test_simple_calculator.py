@@ -1,5 +1,5 @@
 import unittest
-from SimpleCalculator import simple_calculator.py
+from simple_calculator import simple_calculator.py
 
 class TestSimpleCalculator(unittest.TestCase)
 
