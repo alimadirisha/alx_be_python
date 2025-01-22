@@ -30,7 +30,7 @@ account.deposit(317)
 
 #Withdraw money
 account.withdraw(50)
-account.withdraw(100)
+account.withdraw(350)
 
 # Check balance
 account.display_balance()         
