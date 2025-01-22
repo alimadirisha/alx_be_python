@@ -26,10 +26,11 @@ class BankAccount:
 account = BankAccount()
 
 # Deposit money
-account.deposit(67)    
+account.deposit(67)
 
 #Withdraw money
-account.withdraw(20)
+account.withdraw(50)
+account.withdraw(100)
 
 # Check balance
 account.display_balance()         
