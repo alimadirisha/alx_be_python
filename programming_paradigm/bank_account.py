@@ -5,7 +5,7 @@ class BankAccount:
     def deposit_amount(self, amount):
         if amount > 0:
             self.account_balance += amount
-            print(f"Deposit successful! Your account balance is Ksh{self.account_balance:.2f}")
+            print(f"Deposited: {self.account_balance:.2f}")
         else:
             print("Deposit amount must be positive")
         
@@ -18,7 +18,7 @@ class BankAccount:
             return False
         else:
             self.account_balance -= amount
-            print(f"Withdrawal successful! Your updated account balance is ${self.account_balance:.2f}")
+            print(f"Withdrew: ${self.account_balance:.2f}")
                 
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance}:2f")   
